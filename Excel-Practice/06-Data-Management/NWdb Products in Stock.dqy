@@ -1,0 +1,7 @@
+XLODBC
+1
+DSN=MS Access Database;DBQ=D:\STUDYING-02\BOOKS\24-EXCEL-MAY-02-2023\EXCEL-TUTORIALS\MICROSOFT ® EXCEL ® WORKBOOK (PAUL MCFEDRIES, GREG HARVEY) (Z-LIBRARY)-EXAMPLES\CHAP17\Northwind.mdb;DefaultDir=D:\STUDYING-02\BOOKS\24-EXCEL-MAY-02-2023\EXCEL-TUTORIALS\MICROSOFT ® EXCEL ® WORKBOOK (PAUL MCFEDRIES, GREG HARVEY) (Z-LIBRARY)-EXAMPLES\CHAP17;DriverId=25;FIL=MS Access;MaxBufferSize=2048;PageTimeout=5;
+SELECT Products.ProductName, Products.QuantityPerUnit, Products.UnitPrice, Products.UnitsInStock, Products.Discontinued  FROM Products Products  WHERE (Products.UnitPrice>=10 And Products.UnitPrice<=25) AND (Products.Discontinued=0)  ORDER BY Products.ProductName
+
+
+ProductName	QuantityPerUnit	UnitPrice	UnitsInStock	Discontinued
